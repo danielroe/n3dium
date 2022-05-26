@@ -20,6 +20,11 @@ This is a tiny, incomplete example for a paywalled content site built in [Nuxt 3
 # install dependencies
 pnpm install # or yarn
 
+# set up keys (used for JWT signing/verification)
+openssl ecparam -genkey -name prime256v1 -noout -out key-pair.pem
+openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in key-pair.pem -out private.key
+openssl ec -in key-pair.pem -pubout -out public.key
+
 # serve in dev mode, with hot reload at localhost:3000
 pnpm dev
 
