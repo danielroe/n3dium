@@ -9,8 +9,8 @@ async function handleLogin(e: Event) {
       Object.fromEntries(new FormData(e.target as HTMLFormElement).entries())
     )
     await navigateTo('/')
-  } catch (e) {
-    error.value = 2
+  } catch (err) {
+    error.value = err
   } finally {
     loading.value = false
   }
@@ -20,6 +20,12 @@ async function handleLogin(e: Event) {
 <template>
   <div>
     <form @submit.prevent="handleLogin">
+      <div
+        v-if="error"
+        class="border-2 border-red-300 bg-red-900 px-2 py-1 mb-4 rounded"
+      >
+        {{ error.message }}
+      </div>
       <label>
         User name:
         <input name="username" type="text" required placeholder="vuejsglobal" />
