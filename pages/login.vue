@@ -4,6 +4,7 @@ const error = ref()
 const loading = ref(false)
 async function handleLogin(e: Event) {
   try {
+    error.value = null
     loading.value = true
     await $auth.login(
       Object.fromEntries(new FormData(e.target as HTMLFormElement).entries())
