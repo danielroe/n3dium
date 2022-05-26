@@ -1,42 +1,44 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 + Medium (n3dium)
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+This is a tiny, incomplete example for a paywalled content site built in [Nuxt 3](https://v3.nuxtjs.org/) for a live-coding session at [Vue.js Global Summit 2022](https://vue.geekle.us/).
 
-## Setup
+- [✨ &nbsp;Live Demo](https://n3dium.netlify.app/login)
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# yarn
-yarn install
+- Based on [Nuxt 3](https://v3.nuxtjs.org/)
+- Server API routes using [Nuxt Nitro](https://v3.nuxtjs.org/concepts/server-engine)
+- Light & dark mode using [pico.css](https://picocss.com/docs/)
 
-# npm
-npm install
+## Try it out
 
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
+### Setup
 
 ```bash
-npm run dev
+# install dependencies
+pnpm install # or yarn
+
+# serve in dev mode, with hot reload at localhost:3000
+pnpm dev
+
+# build for production (universal)
+pnpm build
+
+# preview in production mode
+pnpm start
 ```
 
-## Production
+### Deployment
 
-Build the application for production:
+You should be able to deploy this repository with zero or minimal configuration.
 
-```bash
-npm run build
-```
+- [Azure](https://v3.nuxtjs.org/docs/deployment/azure)
+- [Cloudflare Workers](https://v3.nuxtjs.org/docs/deployment/cloudflare)
+- [Firebase Hosting](https://v3.nuxtjs.org/docs/deployment/firebase)
+- [Netlify](https://v3.nuxtjs.org/docs/deployment/netlify)
+- [Vercel](https://v3.nuxtjs.org/docs/deployment/vercel)
+- ... and more
 
-Locally preview production build:
+## License
 
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+MIT
