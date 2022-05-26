@@ -20,8 +20,19 @@ async function handleLogin(e: Event) {
 <template>
   <div>
     <form @submit.prevent="handleLogin">
-      <label>User name:<input name="username" type="text" required /></label>
-      <label>Password:<input name="password" type="password" required /></label>
+      <label>
+        User name:
+        <input name="username" type="text" required placeholder="vuejsglobal" />
+      </label>
+      <label>
+        Password:
+        <input
+          name="password"
+          type="password"
+          required
+          placeholder="ilovenuxt"
+        />
+      </label>
       <button :aria-busy="loading">Login</button>
     </form>
   </div>
