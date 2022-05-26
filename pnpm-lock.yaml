@@ -4,12 +4,14 @@ specifiers:
   '@nuxt/content': ^2.0.0
   '@nuxtjs/tailwindcss': ^5.1.2
   '@picocss/pico': ^1.5.2
+  jose: ^4.8.1
   nuxt: 3.0.0-rc.3
 
 dependencies:
   '@nuxt/content': 2.0.0
   '@nuxtjs/tailwindcss': 5.1.2
   '@picocss/pico': 1.5.2
+  jose: 4.8.1
 
 devDependencies:
   nuxt: 3.0.0-rc.3
@@ -3086,6 +3088,10 @@ packages:
   /jiti/1.13.0:
     resolution: {integrity: sha512-/n9mNxZj/HDSrincJ6RP+L+yXbpnB8FybySBa+IjIaoH9FIxBbrbRT5XUbe8R7zuVM2AQqNMNDDqz0bzx3znOQ==}
     hasBin: true
+
+  /jose/4.8.1:
+    resolution: {integrity: sha512-+/hpTbRcCw9YC0TOfN1W47pej4a9lRmltdOVdRLz5FP5UvUq3CenhXjQK7u/8NdMIIShMXYAh9VLPhc7TjhvFw==}
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
