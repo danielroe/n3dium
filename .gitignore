@@ -9,3 +9,7 @@ dist
 
 # Local Netlify folder
 .netlify
+
+key-pair.pem
+private.key
+public.key
