@@ -7,7 +7,9 @@ This is a tiny, incomplete example for a paywalled content site built in [Nuxt 3
 ## Features
 
 - Based on [Nuxt 3](https://v3.nuxtjs.org/)
+- [Nuxt Content v2](https://content.nuxtjs.org/)
 - Server API routes using [Nuxt Nitro](https://v3.nuxtjs.org/concepts/server-engine)
+- JWT authentication using [jose](https://github.com/panva/jose/)
 - Light & dark mode using [pico.css](https://picocss.com/docs/)
 
 ## Try it out
