@@ -1,6 +1,9 @@
 <script setup lang="ts">
-const { data: articles } = await useAsyncData('articles', () =>
-  queryContent('/articles').only(['title', 'description', '_path']).find()
+const { data: articles } = await useAsyncData(
+  'articles',
+  () =>
+    queryContent('/articles').only(['title', 'description', '_path']).find(),
+  { server: false }
 )
 </script>
 

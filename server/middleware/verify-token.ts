@@ -1,7 +1,7 @@
 import * as jose from 'jose'
 
 export default defineEventHandler(async event => {
-  if (event.req.url !== '/api/_content/query') return
+  if (!event.req.url?.startsWith('/api/_content/query')) return
 
   const { token } = useCookies(event)
 
