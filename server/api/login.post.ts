@@ -3,7 +3,7 @@ import * as jose from 'jose'
 export default defineEventHandler(async event => {
   const { username, password } = await useBody(event)
 
-  if (username !== 'vuejsglobal' || password !== 'ilovenuxt') {
+  if (username !== 'vue' || password !== 'ilovenuxt') {
     throw createError({
       statusCode: 401,
       message: 'Invalid username or password',

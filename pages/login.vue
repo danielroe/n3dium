@@ -29,7 +29,7 @@ async function handleLogin(e: Event) {
       </div>
       <label>
         User name:
-        <input name="username" type="text" required placeholder="vuejsglobal" />
+        <input name="username" type="text" required placeholder="vue" />
       </label>
       <label>
         Password:

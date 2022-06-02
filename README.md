@@ -1,6 +1,6 @@
 # Nuxt 3 + Medium (n3dium)
 
-This is a tiny, incomplete example for a paywalled content site built in [Nuxt 3](https://v3.nuxtjs.org/) for a live-coding session at [Vue.js Global Summit 2022](https://vue.geekle.us/).
+This is a tiny, incomplete example for a paywalled content site built in [Nuxt 3](https://v3.nuxtjs.org/) for a live-coding session at [Vue.js Global Summit 2022](https://vue.geekle.us/) and [Vue.js Amsterdam 2022](https://vuejs.amsterdam/).
 
 - [✨ &nbsp;Live Demo](https://n3dium.netlify.app/login)
 
