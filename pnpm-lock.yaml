@@ -3,14 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@nuxt/content': ^2.0.0
   '@nuxtjs/tailwindcss': ^5.1.2
-  '@picocss/pico': ^1.5.2
+  '@picocss/pico': ^2.0.6
   jose: ^4.8.1
   nuxt: 3.0.0-rc.3
 
 dependencies:
   '@nuxt/content': 2.0.0
   '@nuxtjs/tailwindcss': 5.1.2
-  '@picocss/pico': 1.5.2
+  '@picocss/pico': 2.0.6
   jose: 4.8.1
 
 devDependencies:
@@ -716,8 +716,9 @@ packages:
       - webpack
     dev: false
 
-  /@picocss/pico/1.5.2:
-    resolution: {integrity: sha512-Y7LepVImg0CmRDT4W3iiO7SzGcB0MgGWoHCmn72fIZgFRQHck/LgnYb2S5lwmJPncMssPta1UwKxVQacadoaqw==}
+  /@picocss/pico/2.0.6:
+    resolution: {integrity: sha512-/d8qsykowelD6g8k8JYgmCagOIulCPHMEc2NC4u7OjmpQLmtSetLhEbt0j1n3fPNJVcrT84dRp0RfJBn3wJROA==}
+    engines: {node: '>=18.19.0'}
     dev: false
 
   /@rollup/plugin-alias/3.1.9_rollup@2.74.1:
