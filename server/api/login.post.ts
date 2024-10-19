@@ -1,7 +1,7 @@
 import * as jose from 'jose'
 
 export default defineEventHandler(async event => {
-  const { username, password } = await useBody(event)
+  const { username, password } = await readBody(event)
 
   if (username !== 'vue' || password !== 'ilovenuxt') {
     throw createError({

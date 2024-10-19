@@ -1,9 +1,9 @@
 import * as jose from 'jose'
 
 export default defineEventHandler(async event => {
-  if (!event.req.url?.startsWith('/api/_content/query')) return
+  if (!event.path.startsWith('/api/_content/query')) return
 
-  const { token } = useCookies(event)
+  const token = getCookie(event, 'token')!
 
   try {
     const publicKey = await jose.importSPKI(
