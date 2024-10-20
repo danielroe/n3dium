@@ -13,6 +13,6 @@
     "@nuxt/content": "^2.13.4",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@picocss/pico": "^2.0.6",
-    "jose": "^5.9.4"
+    "jose": "^5.9.6"
   }
 }
