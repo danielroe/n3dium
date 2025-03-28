@@ -2,7 +2,7 @@
 const route = useRoute()
 const { data } = await useAsyncData(
   `title-${route.params.slug}`,
-  () => queryContent(route.path).only(['title']).findOne(),
+  () => queryCollection('articles').path(route.path).first(),
   { server: false }
 )
 </script>
@@ -10,6 +10,6 @@ const { data } = await useAsyncData(
 <template>
   <div v-if="data">
     <h1>{{ data.title }}</h1>
-    <ContentDoc />
+    <ContentRenderer :value="data" />
   </div>
 </template>
