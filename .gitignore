@@ -13,3 +13,5 @@ dist
 key-pair.pem
 private.key
 public.key
+
+.data
