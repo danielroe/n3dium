@@ -7,12 +7,12 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.14.1592"
+    "nuxt": "3.16.2"
   },
   "dependencies": {
     "@nuxt/content": "^3.4.0",
-    "@nuxtjs/tailwindcss": "^6.12.2",
-    "@picocss/pico": "^2.0.6",
-    "jose": "^5.9.6"
+    "@nuxtjs/tailwindcss": "^6.13.2",
+    "@picocss/pico": "^2.1.1",
+    "jose": "^6.0.10"
   }
 }
