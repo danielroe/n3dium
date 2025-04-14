@@ -15,5 +15,5 @@
     "@picocss/pico": "^2.1.1",
     "jose": "^6.0.10"
   },
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.1"
 }
