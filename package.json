@@ -10,10 +10,10 @@
     "nuxt": "3.17.0"
   },
   "dependencies": {
-    "@nuxt/content": "^3.4.0",
-    "@nuxtjs/tailwindcss": "^6.13.2",
+    "@nuxt/content": "^3.5.1",
+    "@nuxtjs/tailwindcss": "^6.14.0",
     "@picocss/pico": "^2.1.1",
     "jose": "^6.0.10"
   },
-  "packageManager": "pnpm@10.9.0"
+  "packageManager": "pnpm@10.10.0"
 }
