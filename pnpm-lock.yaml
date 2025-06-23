@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@nuxt/content':
-        specifier: ^3.6.0
-        version: 3.6.0(better-sqlite3@11.10.0)(magicast@0.3.5)
+        specifier: ^3.6.1
+        version: 3.6.1(better-sqlite3@11.10.0)(magicast@0.3.5)
       '@nuxtjs/tailwindcss':
         specifier: ^6.14.0
         version: 6.14.0(magicast@0.3.5)
@@ -593,8 +593,8 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  '@nuxt/content@3.6.0':
-    resolution: {integrity: sha512-iqkcWf8M00fq7ZqF2qaHgcoKzRVOTMUp7dLkPCBrARmAKvV4kHdYyKjcf94kiNeKzIeqa73l3c1P8YMno/GgRQ==}
+  '@nuxt/content@3.6.1':
+    resolution: {integrity: sha512-uW0XBvlofPYhgBJajWvlsZpIUig4RfA8h5zaqcMbZdMYBtM+0NXyn/PDWuxMkdHd13vX6FPDobT3gC7mYq9bbQ==}
     peerDependencies:
       '@electric-sql/pglite': '*'
       '@libsql/client': '*'
@@ -1041,9 +1041,6 @@ packages:
 
   '@shikijs/langs@3.6.0':
     resolution: {integrity: sha512-IdZkQJaLBu1LCYCwkr30hNuSDfllOT8RWYVZK1tD2J03DkiagYKRxj/pDSl8Didml3xxuyzUjgtioInwEQM/TA==}
-
-  '@shikijs/themes@3.4.2':
-    resolution: {integrity: sha512-qAEuAQh+brd8Jyej2UDDf+b4V2g1Rm8aBIdvt32XhDPrHvDkEnpb7Kzc9hSuHUxz0Iuflmq7elaDuQAP9bHIhg==}
 
   '@shikijs/themes@3.6.0':
     resolution: {integrity: sha512-Fq2j4nWr1DF4drvmhqKq8x5vVQ27VncF8XZMBuHuQMZvUSS3NBgpqfwz/FoGe36+W6PvniZ1yDlg2d4kmYDU6w==}
@@ -4709,9 +4706,6 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.25.46:
-    resolution: {integrity: sha512-IqRxcHEIjqLd4LNS/zKffB3Jzg3NwqJxQQ0Ns7pdrvgGkwQsEBdEQcOHaBVqvvZArShRzI39+aMST3FBGmTrLQ==}
-
   zod@3.25.64:
     resolution: {integrity: sha512-hbP9FpSZf7pkS7hRVUrOjhwKJNyampPgtXKc3AN6DsWtoHsg2Sb4SQaS4Tcay380zSwd2VPo9G9180emBACp5g==}
 
@@ -5249,7 +5243,7 @@ snapshots:
       unixify: 1.0.0
       urlpattern-polyfill: 8.0.2
       yargs: 17.7.2
-      zod: 3.25.46
+      zod: 3.25.64
     transitivePeerDependencies:
       - encoding
       - rollup
@@ -5296,7 +5290,7 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/content@3.6.0(better-sqlite3@11.10.0)(magicast@0.3.5)':
+  '@nuxt/content@3.6.1(better-sqlite3@11.10.0)(magicast@0.3.5)':
     dependencies:
       '@nuxt/kit': 3.17.5(magicast@0.3.5)
       '@nuxtjs/mdc': 0.17.0(magicast@0.3.5)
@@ -5560,7 +5554,7 @@ snapshots:
     dependencies:
       '@nuxt/kit': 3.17.5(magicast@0.3.5)
       '@shikijs/langs': 3.6.0
-      '@shikijs/themes': 3.4.2
+      '@shikijs/themes': 3.6.0
       '@shikijs/transformers': 3.4.2
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
@@ -5910,10 +5904,6 @@ snapshots:
   '@shikijs/langs@3.6.0':
     dependencies:
       '@shikijs/types': 3.6.0
-
-  '@shikijs/themes@3.4.2':
-    dependencies:
-      '@shikijs/types': 3.4.2
 
   '@shikijs/themes@3.6.0':
     dependencies:
@@ -10299,8 +10289,6 @@ snapshots:
   zod-to-json-schema@3.24.5(zod@3.25.64):
     dependencies:
       zod: 3.25.64
-
-  zod@3.25.46: {}
 
   zod@3.25.64: {}
 
