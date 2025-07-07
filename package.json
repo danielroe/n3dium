@@ -10,7 +10,7 @@
     "nuxt": "3.17.6"
   },
   "dependencies": {
-    "@nuxt/content": "^3.6.1",
+    "@nuxt/content": "^3.6.3",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@picocss/pico": "^2.1.1",
     "jose": "^6.0.11"
