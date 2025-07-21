@@ -13,7 +13,7 @@
     "@nuxt/content": "^3.6.3",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@picocss/pico": "^2.1.1",
-    "jose": "^6.0.11"
+    "jose": "^6.0.12"
   },
   "packageManager": "pnpm@10.13.1"
 }
