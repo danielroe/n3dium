@@ -7,7 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "4.2.1"
+    "nuxt": "4.2.2"
   },
   "dependencies": {
     "@nuxt/content": "^3.10.0",
