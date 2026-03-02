@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@nuxt/content':
-        specifier: ^3.11.2
+        specifier: ^3.12.0
         version: 3.12.0(better-sqlite3@12.6.2)(magicast@0.5.2)
       '@nuxtjs/tailwindcss':
         specifier: ^6.14.0
