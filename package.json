@@ -13,8 +13,8 @@
     "@nuxt/content": "^3.12.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
     "@picocss/pico": "^2.1.1",
-    "better-sqlite3": "^12.6.2",
+    "better-sqlite3": "^12.8.0",
     "jose": "^6.2.1"
   },
-  "packageManager": "pnpm@10.32.0"
+  "packageManager": "pnpm@10.32.1"
 }
