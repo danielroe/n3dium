@@ -16,5 +16,5 @@
     "better-sqlite3": "^13.0.2",
     "jose": "^6.2.8"
   },
-  "packageManager": "pnpm@11.21.0"
+  "packageManager": "pnpm@11.22.0"
 }
